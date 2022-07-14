@@ -6,18 +6,16 @@ const assignment = {};
 
 /* First quiz */
 function sumOfNumbers(arrayOfNumbers) {
-  sum = 0;
+  let sum = 0;
   for (let i = 0; i <= arrayOfNumbers.length - 1; i++) {
     sum+= arrayOfNumbers[i];
   }
   return sum;
 }
-// assignment.sumOfNumbers = sumOfNumbers;
-
 
 /* Second quiz */
 function countEvenNumbers(arrayOfNumbers) {
-  count = 0;
+  let count = 0;
   for (let j = 0; j <= arrayOfNumbers.length - 1 ; j++) {
     if (arrayOfNumbers[j] % 2 == 0) {
       count+= 1 ;      
@@ -25,8 +23,6 @@ function countEvenNumbers(arrayOfNumbers) {
   }
   return count;    
 }
-// assignment.countEvenNumbers = countEvenNumbers;
-
 
 /* Third quiz (optional) */
 function celsiusToFahrenheit(arrayOfNumbers) {
@@ -36,7 +32,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
   }
   return arrayOfNumbers2;
 }
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+
 
 
 // ========================
